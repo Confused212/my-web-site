@@ -1,3 +1,75 @@
+/* main styles */
+
 body {
-  background: blue;
+      font-family: 'Bitter', serif;
+      background: #FFECCC;
+      max-width: 100%;
+}
+
+header {
+        background: #376996;
+        padding: 1px 5px 10px 0;
+        text-align: center;
+
+}
+
+.main-heading {
+              font-family: 'Uncial Antiqua', cursive;
+              font-weight: normal;
+              font-size: 1.5em;
+              margin-top: 0.3125em;
+}
+
+.links {
+        line-height: 1.875em;
+}
+
+.links li {
+          background-color: #294D6E;
+          list-style: none;
+          margin: 0.625em;
+          padding: 0.325em;
+          font-size: 1.5em;
+
+
+}
+
+.links a {
+        text-decoration: none;
+}
+
+.about h2 {
+          font-size: 1.5em;
+          line-height: 1em;
+          clear: both;
+          font-family: 'Yanone Kaffeesatz', sans-serif;
+          margin-left: 60px;
+}
+
+.about p {
+        margin: 20px 20px 20px 60px;
+        text-align: justify;
+        font-size: 16px;
+
+}
+
+.work {
+      text-align: center;
+}
+
+.work p {
+        margin: 0 60px;
+}
+
+#html p {
+        margin-bottom: 20px;
+        padding-top: 20px;
+}
+
+#css p {
+        margin-bottom: 20px;
+}
+
+#photoshop  p {
+              margin-bottom: 20px;
 }
