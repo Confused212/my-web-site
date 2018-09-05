@@ -5,51 +5,64 @@
         <title>David Pinner | Web Developer Portfolio</title>
         <link rel="stylesheet" href="css/stylesheet.css">
         <link rel="stylesheet" href="css/normalize.css">
-        <link href="https://fonts.googleapis.com/css?family=Bitter|Uncial+Antiqua|Yanone+Kaffeesatz" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Exo:400,800|Orbitron:400,700|Permanent+Marker|Righteous" rel="stylesheet">
       </head>
       <body>
-        <div class="Container"> <!--main Div-->
-              <header>
-                <div class="main-heading">
-                      <h1>David Pinner</h1>
-                </div>
-                <div class="links">
-                      <nav>
-                            <ul>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#work">Work</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-                      </nav>
-                </div>
-              </header>
+        <div> <!--main Div-->
+            <header>
+                    <div class="links">
+                          <nav>
+                                <ul>
+                                    <li><a href="#portfolio">portfolio</a></li>
+                                    <li><a href="#work">Work</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                          </nav>
+                    </div>
+            </header>
+                    <div class="photo">
+<pre>
+  <span>Hi</span>,
+    I'm <strong>David Pinner</strong>,
+      A web Developer and designer with an eye for detail,
+        that loves clean & elegant code.</pre>
+                    </div>
               <main>
                     <article  class="about">
                           <div>
                                 <h2>A little Information about me.</h2>
-                                <p>I've made my home base in Lossiemouth, Moray, Scotland, with my two children and Wife. My journey into tech started with a desire to see how Web pages were built. As my intrest grew so did my thirst for knowledge, I was fascinated with how easily I could gain more insight and knowledge from round the Internet. I was hooked and wanted to learn how to build my own site to fit my own specific needs of myself and my family.</p>
+                                <p class="p1">I've made my home base in Lossiemouth, Moray, Scotland, with my two children and Wife. My journey into tech started with a desire to see how Web pages were built. As my intrest grew so did my thirst for knowledge, I was fascinated with how easily I could gain more insight and knowledge from round the Internet. I was hooked and wanted to learn how to build my own site to fit the specific needs of myself and my family.</p>
 
-                                <p>That curiosity then opened a door that could never be shut. When I learned how to build my first website, I realised I found something that gave me the freedom & versatility I was looking for in my work. Now I'm in the process of making a full switch to front-end development, where I can use my organisation skills and eye for detail to write clean, elegant code.</p>
+                                <p class="p2">That curiosity then opened a door that could never be shut. When I learned how to build my first website, I realised I found something that gave me the freedom & versatility I was looking for in my work. Now I'm in the process of making a full switch to front-end development, where I can use my organisation skills and eye for detail to write clean, elegant code.</p>
                           </div>
                     </article>
-                    <article class="portfolio">
+                    <article id="portfolio">
                             <div id="rogue">
-                                <img src="imgs/rogue.png" alt="rogue web site">
-                                  <h2>Rogue Pickings WebSite</h2>
-                                  <p>You can trust me to take a designer's PSD and quickly & accurately convert it into a webpage that is pixel-perfect match.</p>
+                                  <img src="imgs/rogue.png" alt="rogue web site">
+                                  <div class="text-rouge">
+                                        <h2>Rogue Pickings WebSite</h2>
+                                        <p>You can trust me to take a designer's PSD and quickly & accurately convert it into a webpage that is pixel-perfect match.</p>
+                                  </div>
+
                             </div>
                             <div id="holstee">
                                   <img src="imgs/holsten-project.png" alt="holsten manifesto">
-                                  <h2>Holstee Manifesto</h2>
-                                  <p>I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>
+                                  <div class="text-holstee">
+                                        <h2>Holstee Manifesto</h2>
+                                        <p>I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>
+                                  </div>
+
                             </div>
                             <div id="jubilee">
                                   <img src="imgs/jubilee.png" alt="jubilee austin" />
-                                  <h2>Jubilee Austen Project.</h2>
-                                  <p>My focus is writing clean, well-formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
-                            </div>                            
+                                  <div class="text-jubilee">
+                                        <h2>Jubilee Austen Project.</h2>
+                                        <p>My focus is writing clean, well-formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
+                                  </div>
+
+                            </div>
                     </article>
-                    <article class="work">
+                    <article id="work">
                             <div id="html">
                                   <img src="imgs/html-icon.png" alt="html icon" />
                                   <h2>Hand coded HTML.</h2>
@@ -66,7 +79,7 @@
                                   <p>You can trust me to take a designer's PSD and quickly & accurately convert it into a webpage that is pixel-perfect match.</p>
                             </div>
                     </article>
-                    <article class="contact">
+                    <article id="contact">
                               <div id="email">
                                     <h2>If you would like to know more</h2>
                                         <p><a href="mailto:davepin212@gmail.com">

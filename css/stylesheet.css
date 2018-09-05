@@ -1,75 +1,130 @@
-/* main styles */
-
+/************************
+ Main body
+ ************************/
 body {
-      font-family: 'Bitter', serif;
-      background: #FFECCC;
-      max-width: 100%;
+      max-width: 1280px;
+      background: #E9E7E8;
+      font-family: 'Exo', sans-serif;
 }
 
-header {
-        background: #376996;
-        padding: 1px 5px 10px 0;
+/************************
+ styling
+ ************************/
+
+ /*--------- header --------------*/
+
+
+ .links {
+        max-width: 1280px;
         text-align: center;
+        font-family: 'Righteous', cursive;
+        text-transform: uppercase;
+        color: #A4B1BB;
+        font-size: 5px;
 
-}
+ }
 
-.main-heading {
-              font-family: 'Uncial Antiqua', cursive;
-              font-weight: normal;
-              font-size: 1.5em;
-              margin-top: 0.3125em;
-}
-
-.links {
-        line-height: 1.875em;
-}
-
-.links li {
-          background-color: #294D6E;
-          list-style: none;
-          margin: 0.625em;
-          padding: 0.325em;
-          font-size: 1.5em;
+ .links li {
+        list-style: none;
+        display: inline-block;
+        font-size: 15px;
+        padding-left: 15px;
 
 
-}
+ }
 
-.links a {
+ .links a {
         text-decoration: none;
+        color: #A4B1BB;
+
+ }
+
+
+/*-------- main body ---------*/
+
+.photo {
+      clear: both;
+      margin:0;
+      padding-top: 220px;
+      background-image: url(../Imgs/coast-540123_1280.jpg);
+      height: 500px;
+      background-position: center;
+      background-size: cover;
+
+}
+
+.photo pre {
+        clear: both;
+        text-align: left;
+        font-size: 30px;
+        hight: 500px;
+        line-height: 50px;
+        margin: 0;
+
+}
+
+.photo span {
+          font-weight: bolder;
+}
+
+
+.photo strong {
+            color: #EB8258;
+}
+
+
+
+/*------- about ------------*/
+
+.about {
+  clear: both;
+
 }
 
 .about h2 {
-          font-size: 1.5em;
-          line-height: 1em;
-          clear: both;
-          font-family: 'Yanone Kaffeesatz', sans-serif;
-          margin-left: 60px;
+          text-align: center;
+          text-transform: uppercase;
+          font-family: 'Orbitron', sans-serif;
 }
 
-.about p {
-        margin: 20px 20px 20px 60px;
-        text-align: justify;
-        font-size: 16px;
-
+.p1,
+.p2 {
+    line-height: 25px;
+    padding: 5px;
+    text-align: justify;
 }
 
-.work {
-      text-align: center;
+.p1 {
+    max-width: 500px;
+    padding-left: 50px;
 }
 
-.work p {
-        margin: 0 60px;
+.p2 {
+    max-width: 500px;
+    padding-left: 100px;
 }
 
-#html p {
-        margin-bottom: 20px;
-        padding-top: 20px;
+
+/*------- portfolio ------------*/
+
+.portfolio h2 {
+            font-family: 'Orbitron', sans-serif;
 }
 
-#css p {
-        margin-bottom: 20px;
+
+/*------- skils ------------*/
+
+#work {
+  clear: both;
 }
 
-#photoshop  p {
-              margin-bottom: 20px;
+
+
+ /************************
+  positioning
+  ************************/
+
+.p1, .p2 {
+        float: left;
+        margin: 2.5px;
 }
