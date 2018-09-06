@@ -24,11 +24,15 @@ body {
 
  }
 
+.links ul {
+        padding-right: 70px;
+}
+
  .links li {
         list-style: none;
         display: inline-block;
         font-size: 15px;
-        padding-left: 15px;
+        padding-left: 80px;
 
 
  }
@@ -44,7 +48,6 @@ body {
 
 .photo {
       clear: both;
-      margin:0;
       padding-top: 220px;
       background-image: url(../Imgs/coast-540123_1280.jpg);
       height: 500px;
@@ -57,7 +60,6 @@ body {
         clear: both;
         text-align: left;
         font-size: 30px;
-        hight: 500px;
         line-height: 50px;
         margin: 0;
 
@@ -85,6 +87,7 @@ body {
           text-align: center;
           text-transform: uppercase;
           font-family: 'Orbitron', sans-serif;
+          padding: 20px 0;
 }
 
 .p1,
@@ -96,7 +99,7 @@ body {
 
 .p1 {
     max-width: 500px;
-    padding-left: 50px;
+    padding-left: 85px;
 }
 
 .p2 {
@@ -111,20 +114,251 @@ body {
             font-family: 'Orbitron', sans-serif;
 }
 
+.p3 {
+    clear: both;
+    display: block;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    padding: 40px 0;
+}
 
-/*------- skils ------------*/
+#rogue {
+        clear: both;
+        padding-top: 20px;
+}
 
-#work {
-  clear: both;
+#rogue h2 {
+        text-align: center;
+        padding-top: 90px;
+        font-family: 'Righteous', cursive;
+        text-transform: uppercase;
+}
+
+#rogue p {
+        max-width: 400px;
+        display: inline-block;
+        padding-left: 170px;
+        line-height: 28px;
+}
+
+#holstee {
+        clear: both;
+        text-align: right;
+        padding-top: 70px;
+}
+
+#holstee img {
+            border: 2px solid black;
+            margin: 5px;
+}
+
+.text-holstee {
+            text-align: left;
+            max-width: 400px;
+            padding-left: 150px;
+
+}
+
+.text-holstee h2 {
+                text-align: center;
+                padding-top: 150px;
+                font-family: 'Righteous', cursive;
+                text-transform: uppercase;
+}
+
+.text-holstee p {
+              line-height: 28px;
 }
 
 
+.text-jubilee {
+            text-align: left;
+            max-width: 400px;
+            padding-left: 150px;
 
+}
+
+.text-jubilee h2 {
+                text-align: center;
+                padding-top: 120px;
+                font-family: 'Righteous', cursive;
+                text-transform: uppercase;
+}
+
+.text-jubilee p {
+              line-height: 28px;
+}
+
+/*------- web technologies ------------*/
+
+#work {
+      clear: both;
+}
+
+#html {
+    text-align: center;
+}
+#css {
+    text-align: center;
+}
+
+#photoshop {
+          text-align: center;
+}
+
+#html h2 {
+        font-family: 'Permanent Marker', cursive;
+}
+
+#css h2 {
+      font-family: 'Permanent Marker', cursive;
+}
+
+#photoshop h2 {
+            font-family: 'Permanent Marker', cursive;
+            display: block;
+}
+
+#html p {
+      font-family: 'Exo', sans-serif;
+      margin: 0 25px;
+      line-height: 28px;
+}
+
+#css p {
+      font-family: 'Exo', sans-serif;
+      margin: 0 25px;
+      line-height: 28px;
+}
+
+#photoshop p {
+            font-family: 'Exo', sans-serif;
+            line-height: 28px;
+            margin: 0 25px;
+}
+
+#contact {
+        clear: both;
+}
+
+#contact h2 {
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 70px;
+}
+
+#email h2 {
+      padding-bottom: 20px;
+      font-size: 16px;
+}
+
+#email p {
+  text-align: center;
+}
+
+#email a {
+  text-decoration: none;
+}
+
+#social-media {
+      text-align: center;
+}
+
+#social-media h3 {
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+#social-media ul {
+   padding-left: 0;
+}
+
+#social-media li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin: 0 10px;
+}
+
+footer h3 {
+        text-align: center;
+        padding: 30px 0;
+        background: #EB8258;
+        font-family: 'Dancing Script', cursive;
+        font-size: 25px;
+        margin-bottom: 0;
+}
  /************************
   positioning
   ************************/
 
+/*------- portfolio ------------*/
+
 .p1, .p2 {
         float: left;
         margin: 2.5px;
+}
+
+#rogue img {
+          float: left;
+          margin: 5px;
+          border: 2px solid black;
+}
+
+
+.text-rogue h2 p {
+
+              margin: 2.5px;
+}
+
+.text-holstee {
+            float: left;
+            margin: 2.5px;
+}
+
+
+#jubilee img {
+          float: left;
+          margin: 60px;
+          margin-left: 5px;
+          border: 2px solid black;
+}
+
+
+.text-jubilee h2 p {
+
+              margin: 2.5px;
+}
+
+.text-jubilee {
+            float: left;
+            margin: 2.5px;
+}
+
+
+
+/*------- web technologies ------------*/
+
+#html {
+    max-width: 410px;
+    float:left;
+    margin: 5px;
+}
+
+#css {
+    max-width: 410px;
+    float:left;
+    margin: 5px;
+}
+
+
+#photoshop {
+          max-width: 410px;
+          float:left;
+          display: block;
+          margin: 5px;
 }
