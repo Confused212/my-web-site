@@ -9,6 +9,18 @@ body {
 
 }
 
+a:link{
+    color: #A4B1BB;
+}
+a:visited{
+        color: #A4B1BB;
+}
+a:hover{
+  color: #EB8258;
+}
+a:active{
+    color: #A4B1BB;
+}
 /************************
  styling
  ************************/
@@ -21,7 +33,6 @@ body {
         text-align: center;
         font-family: 'Righteous', cursive;
         text-transform: uppercase;
-        color: #A4B1BB;
         font-size: 5px;
 
  }
@@ -35,6 +46,7 @@ body {
         display: inline-block;
         font-size: 15px;
         padding-left: 80px;
+        color: #A4B1BB;
 
 
  }
@@ -44,13 +56,7 @@ body {
  }
 
 
-
-.links a:visited {
-                color: #A4B1BB;
-
-}
-
- .links a:hover {
+ .links nav ul li a:hover {
             color: #EB8258;
  }
 
@@ -60,7 +66,7 @@ body {
 .photo {
       clear: both;
       padding-top: 220px;
-      background-image: url(../Imgs/coast-540123_1280.jpg);
+      background-image: url(../imgs/coast-540123_1280.jpg);
       height: 500px;
       background-position: center;
       background-size: cover;
@@ -165,7 +171,7 @@ body {
             color: inherit;
 }
 
-.text-jubilee a:hover {
+.text-jubilee p a:hover {
                    color: #EF3E38;
 }
 
@@ -186,7 +192,7 @@ body {
             color: inherit;
 }
 
-.text-holstee a:hover {
+.text-holstee h2 a:hover {
                    color: #0061FF;
 }
 
@@ -238,15 +244,15 @@ body {
       clear: both;
 }
 
-#work a span {
+#work a strong {
       font-size: 16px;
 }
 
-#work span .skillcrush:hover {
+#work li a .skillcrush:hover {
                 color: #EF3E38;
 }
 
-#work span .teamtreehouse:hover {
+#work li a .teamtreehouse:hover {
                 color: #44C482;
 }
 
@@ -273,30 +279,24 @@ body {
         line-height: 25px;
 }
 
-#html h5 li {
+#html li {
         text-align: left;
         list-style: none;
-        margin-left: 45px;
+        margin-left: 20px;
 }
 
-#html h5 li span {
+#html li strong {
             font-size: 16px;
 }
 
-#html h5 a {
+#html a {
           text-decoration: none;
           font-weight: bolder;
           color: inherit;
 }
 
-#html h5 p {
-          font-family: 'Exo', sans-serif;
-          text-align: left;
-          font-weight: 700;
-          margin:0;
-}
 
-#html span {
+#html strong {
           font-weight: 700;
 }
 
@@ -322,23 +322,23 @@ body {
       margin-bottom: 20px;
 }
 
-#css h5 li {
+#css li {
   text-align: left;
   list-style: none;
-  margin-left: 45px;
+  margin-left: 20px;
 }
 
-#css h5 li span {
+#css li strong {
               font-size: 16px;
 }
 
-#css h5 a {
+#css a {
   text-decoration: none;
   font-weight: bolder;
   color: inherit;
 }
 
-#css span {
+#css strong {
         font-weight: 700;
 }
 
@@ -366,19 +366,19 @@ body {
             margin-bottom: 35px;
 }
 
-#photoshop h5 li {
+#photoshop li {
   text-align: left;
   list-style: none;
-  margin-left: 45px;
+  margin-left: 20px;
 }
 
-#photoshop h5 a {
+#photoshop a {
   text-decoration: none;
   font-weight: bolder;
   color: inherit;
 }
 
-#photoshop span {
+#photoshop strong {
               font-weight: 700;
 }
 
