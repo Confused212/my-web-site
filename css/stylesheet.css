@@ -3,13 +3,11 @@
  ************************/
 #wrapper {
   width: 1280px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 
 body {
-
-      margin: auto;
       background: #E9E7E8;
       font-family: 'Exo', sans-serif;
 
