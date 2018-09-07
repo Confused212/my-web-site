@@ -1,8 +1,14 @@
 /************************
  Main body
  ************************/
+#wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+
 body {
-      max-width: 1280px;
+
       margin: auto;
       background: #E9E7E8;
       font-family: 'Exo', sans-serif;
