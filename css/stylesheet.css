@@ -3,8 +3,10 @@
  ************************/
 body {
       max-width: 1280px;
+      margin: auto;
       background: #E9E7E8;
       font-family: 'Exo', sans-serif;
+
 }
 
 /************************
@@ -15,7 +17,7 @@ body {
 
 
  .links {
-        max-width: 1280px;
+        max-width: 1500px;
         text-align: center;
         font-family: 'Righteous', cursive;
         text-transform: uppercase;
@@ -39,8 +41,17 @@ body {
 
  .links a {
         text-decoration: none;
-        color: #A4B1BB;
+ }
 
+
+
+.links a:visited {
+                color: #A4B1BB;
+
+}
+
+ .links a:hover {
+            color: #EB8258;
  }
 
 
@@ -53,6 +64,7 @@ body {
       height: 500px;
       background-position: center;
       background-size: cover;
+      margin: 5px;
 
 }
 
@@ -79,7 +91,7 @@ body {
 /*------- about ------------*/
 
 .about {
-  clear: both;
+      clear: both;
 
 }
 
@@ -110,8 +122,14 @@ body {
 
 /*------- portfolio ------------*/
 
-.portfolio h2 {
-            font-family: 'Orbitron', sans-serif;
+
+
+#portfolio h4 {
+            text-align: center;
+}
+
+#portfolio h4 span {
+  color: #EB8258;
 }
 
 .p3 {
@@ -120,32 +138,41 @@ body {
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
-    padding: 40px 0;
+    padding-top: 80px;
 }
 
-#rogue {
-        clear: both;
-        padding-top: 20px;
+.text-jubilee {
+            text-align: left;
+            max-width: 400px;
+            padding-left: 135px;
+
 }
 
-#rogue h2 {
-        text-align: center;
-        padding-top: 90px;
-        font-family: 'Righteous', cursive;
-        text-transform: uppercase;
+.text-jubilee h2 {
+                text-align: center;
+                padding-top: 100px;
+                text-transform: uppercase;
 }
 
-#rogue p {
-        max-width: 400px;
-        display: inline-block;
-        padding-left: 170px;
-        line-height: 28px;
+.text-jubilee p {
+              line-height: 28px;
+              text-align: justify;
+}
+
+.text-jubilee p a {
+            text-decoration: none;
+            font-weight: bolder;
+            color: inherit;
+}
+
+.text-jubilee a:hover {
+                   color: #EF3E38;
 }
 
 #holstee {
         clear: both;
         text-align: right;
-        padding-top: 70px;
+        /* padding-top: 70px; */
 }
 
 #holstee img {
@@ -153,42 +180,57 @@ body {
             margin: 5px;
 }
 
+.text-holstee a {
+            text-decoration: none;
+            font-weight: bolder;
+            color: inherit;
+}
+
+.text-holstee a:hover {
+                   color: #0061FF;
+}
+
 .text-holstee {
             text-align: left;
             max-width: 400px;
-            padding-left: 150px;
+            padding-left: 90px;
 
 }
 
 .text-holstee h2 {
                 text-align: center;
-                padding-top: 150px;
+                padding-top: 130px;
                 font-family: 'Righteous', cursive;
                 text-transform: uppercase;
 }
 
 .text-holstee p {
               line-height: 28px;
+              text-align: justify;
 }
 
 
-.text-jubilee {
-            text-align: left;
-            max-width: 400px;
-            padding-left: 150px;
-
+#rogue {
+        clear: both;
 }
 
-.text-jubilee h2 {
-                text-align: center;
-                padding-top: 120px;
-                font-family: 'Righteous', cursive;
-                text-transform: uppercase;
+#rogue h2 {
+        text-align: center;
+        padding-top: 100px;
+        font-family: 'Righteous', cursive;
+        text-transform: uppercase;
+        margin: 0;
 }
 
-.text-jubilee p {
-              line-height: 28px;
+#rogue p {
+        max-width: 400px;
+        text-align: justify;
+        display: inline-block;
+        padding-left: 135px;
+        line-height: 28px;
 }
+
+
 
 /*------- web technologies ------------*/
 
@@ -196,99 +238,211 @@ body {
       clear: both;
 }
 
+#work a span {
+      font-size: 16px;
+}
+
+#work span .skillcrush:hover {
+                color: #EF3E38;
+}
+
+#work span .teamtreehouse:hover {
+                color: #44C482;
+}
+
+.p4 {
+    clear: both;
+    display: block;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    padding: 60px;
+}
+
 #html {
     text-align: center;
 }
-#css {
-    text-align: center;
-}
-
-#photoshop {
-          text-align: center;
-}
 
 #html h2 {
-        font-family: 'Permanent Marker', cursive;
+        font-family: cursive;
 }
 
-#css h2 {
-      font-family: 'Permanent Marker', cursive;
+
+#html h5 {
+        font-weight: 400;
+        line-height: 25px;
 }
 
-#photoshop h2 {
-            font-family: 'Permanent Marker', cursive;
-            display: block;
+#html h5 li {
+        text-align: left;
+        list-style: none;
+        margin-left: 45px;
+}
+
+#html h5 li span {
+            font-size: 16px;
+}
+
+#html h5 a {
+          text-decoration: none;
+          font-weight: bolder;
+          color: inherit;
+}
+
+#html h5 p {
+          font-family: 'Exo', sans-serif;
+          text-align: left;
+          font-weight: 700;
+          margin:0;
+}
+
+#html span {
+          font-weight: 700;
 }
 
 #html p {
       font-family: 'Exo', sans-serif;
       margin: 0 25px;
       line-height: 28px;
+      text-align: justify;
+}
+
+
+#css {
+    text-align: center;
+}
+
+#css h2 {
+      font-family: cursive;
+}
+
+#css h5 {
+      font-weight: 400;
+      line-height: 25px;
+      margin-bottom: 20px;
+}
+
+#css h5 li {
+  text-align: left;
+  list-style: none;
+  margin-left: 45px;
+}
+
+#css h5 li span {
+              font-size: 16px;
+}
+
+#css h5 a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: inherit;
+}
+
+#css span {
+        font-weight: 700;
 }
 
 #css p {
       font-family: 'Exo', sans-serif;
       margin: 0 25px;
       line-height: 28px;
+      text-align: justify;
+}
+
+
+#photoshop {
+          text-align: center;
+}
+
+#photoshop h2 {
+            font-family: cursive;
+            display: block;
+}
+
+#photoshop h5 {
+            padding-bottom: 21px;
+            font-weight: 400;
+            line-height: 25px;
+            margin-bottom: 35px;
+}
+
+#photoshop h5 li {
+  text-align: left;
+  list-style: none;
+  margin-left: 45px;
+}
+
+#photoshop h5 a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: inherit;
+}
+
+#photoshop span {
+              font-weight: 700;
 }
 
 #photoshop p {
             font-family: 'Exo', sans-serif;
             line-height: 28px;
             margin: 0 25px;
+            text-align: justify;
 }
+
 
 #contact {
         clear: both;
 }
 
 #contact h2 {
-        font-family: 'Righteous', cursive;
-        text-align: center;
-        text-transform: uppercase;
-        padding-top: 70px;
+          font-family: 'Righteous', cursive;
+          text-align: center;
+          text-transform: uppercase;
+          padding-top: 70px;
 }
 
 #email h2 {
-      padding-bottom: 20px;
-      font-size: 16px;
-}
+          padding-bottom: 20px;
+          font-size: 16px;
+    }
 
 #email p {
-  text-align: center;
+        text-align: center;
 }
 
 #email a {
-  text-decoration: none;
+        text-decoration: none;
 }
 
+
+
 #social-media {
-      text-align: center;
+            text-align: center;
 }
 
 #social-media h3 {
-  font-family: 'Righteous', cursive;
-  text-transform: uppercase;
-  padding: 20px 0;
-  font-size: 16px;
+                font-family: 'Righteous', cursive;
+                text-transform: uppercase;
+                padding: 20px 0;
+                font-size: 16px;
 }
 
 #social-media ul {
-   padding-left: 0;
+                padding-left: 0;
 }
 
 #social-media li {
-  list-style: none;
-  display: inline;
-  text-align: center;
-  margin: 0 10px;
+              list-style: none;
+              display: inline;
+              text-align: center;
+              margin: 0 10px;
 }
 
 footer h3 {
         text-align: center;
         padding: 30px 0;
         background: #EB8258;
-        font-family: 'Dancing Script', cursive;
+        font-family: cursive;
         font-size: 25px;
         margin-bottom: 0;
 }
@@ -305,7 +459,8 @@ footer h3 {
 
 #rogue img {
           float: left;
-          margin: 5px;
+          margin: 60px;
+          margin-left: 5px;
           border: 2px solid black;
 }
 
