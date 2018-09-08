@@ -1,523 +1,283 @@
-/************************
- Main body
- ************************/
-#wrapper {
-  width: 1280px;
-  margin: 0px auto;
-}
+/* ===================== base styles ========================== */
 
 
 body {
-      background: #E9E7E8;
-      font-family: 'Exo', sans-serif;
-
+    background-color: #E1E1E3;
 }
 
-a:link{
-    color: #A4B1BB;
-}
-a:visited{
-        color: #A4B1BB;
-}
-a:hover{
-  color: #EB8258;
-}
-a:active{
-    color: #A4B1BB;
-}
-/************************
- styling
- ************************/
-
- /*--------- header --------------*/
-
-
- .links {
-        max-width: 1500px;
-        text-align: center;
-        font-family: 'Righteous', cursive;
-        text-transform: uppercase;
-        font-size: 5px;
-
- }
-
-.links ul {
-        padding-right: 70px;
+#portfolio,#work,#jubilee,#holstee,#rogue {
+          height: 600px;
 }
 
- .links li {
-        list-style: none;
-        display: inline-block;
-        font-size: 15px;
-        padding-left: 80px;
-        color: #A4B1BB;
+
+h2 {
+  padding: 50px 0;
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  clear: both;
+  margin:0;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Exo', sans-serif;
+}
+
+ a:link {
+      text-decoration: none;
+      color: #00A8E8;
+}
+
+.skillcrush a:visited{
+        color: #D81C21;
+}
+
+.skillcrush a:hover{
+        color: #FFF9F9;
+}
+
+.teamtreehouse a:visited{
+        color: #2DBF78;
+}
+
+.teamtreehouse a:hover{
+        color: #FFF9F9;
+}
+
+/* ===================== grid ========================== */
+
+.full-width {
+      width: 1280px;
+      margin: 0 auto;
+}
+
+.half-width {
+      float: left;
+      width: 640px;
+}
+
+.third-width {
+      float: left;
+      width: 425px;
+}
 
 
- }
+/* ===================== header ========================== */
 
- .links a {
-        text-decoration: none;
- }
-
-
- .links nav ul li a:hover {
-            color: #EB8258;
- }
-
-
-/*-------- main body ---------*/
-
-.photo {
-      clear: both;
-      padding-top: 220px;
+header {
       background-image: url(../imgs/coast-540123_1280.jpg);
-      height: 500px;
+      height:720px;
+      background-repeat: no-repeat;
       background-position: center;
-      background-size: cover;
-      margin: 5px;
-
+      text-align: center;
 }
 
-.photo pre {
-        clear: both;
-        text-align: left;
-        font-size: 30px;
-        line-height: 50px;
-        margin: 0;
-
-}
-
-.photo span {
-          font-weight: bolder;
-}
-
-
-.photo strong {
-            color: #EB8258;
-}
-
-
-
-/*------- about ------------*/
-
-.about {
-      clear: both;
-
-}
-
-.about h2 {
-          text-align: center;
-          text-transform: uppercase;
-          font-family: 'Orbitron', sans-serif;
-          padding: 20px 0;
-}
-
-.p1,
-.p2 {
-    line-height: 25px;
-    padding: 5px;
-    text-align: justify;
-}
-
-.p1 {
-    max-width: 500px;
-    padding-left: 85px;
-}
-
-.p2 {
-    max-width: 500px;
-    padding-left: 100px;
-}
-
-
-/*------- portfolio ------------*/
-
-
-
-#portfolio h4 {
-            text-align: center;
-}
-
-#portfolio h4 span {
-  color: #EB8258;
-}
-
-.p3 {
-    clear: both;
-    display: block;
-    text-align: center;
-    font-family: 'Orbitron', sans-serif;
-    text-transform: uppercase;
-    padding-top: 80px;
-}
-
-.text-jubilee {
-            text-align: left;
-            max-width: 400px;
-            padding-left: 135px;
-
-}
-
-.text-jubilee h2 {
-                text-align: center;
-                padding-top: 100px;
-                text-transform: uppercase;
-}
-
-.text-jubilee p {
-              line-height: 28px;
-              text-align: justify;
-}
-
-.text-jubilee p a {
-            text-decoration: none;
-            font-weight: bolder;
-            color: inherit;
-}
-
-.text-jubilee p a:hover {
-                   color: #EF3E38;
-}
-
-#holstee {
-        clear: both;
-        text-align: right;
-        /* padding-top: 70px; */
-}
-
-#holstee img {
-            border: 2px solid black;
-            margin: 5px;
-}
-
-.text-holstee a {
-            text-decoration: none;
-            font-weight: bolder;
-            color: inherit;
-}
-
-.text-holstee h2 a:hover {
-                   color: #0061FF;
-}
-
-.text-holstee {
-            text-align: left;
-            max-width: 400px;
-            padding-left: 90px;
-
-}
-
-.text-holstee h2 {
-                text-align: center;
-                padding-top: 130px;
-                font-family: 'Righteous', cursive;
-                text-transform: uppercase;
-}
-
-.text-holstee p {
-              line-height: 28px;
-              text-align: justify;
-}
-
-
-#rogue {
-        clear: both;
-}
-
-#rogue h2 {
-        text-align: center;
-        padding-top: 100px;
-        font-family: 'Righteous', cursive;
+header li {
+        display: inline;
         text-transform: uppercase;
-        margin: 0;
+        font-weight: 600;
 }
 
-#rogue p {
-        max-width: 400px;
-        text-align: justify;
-        display: inline-block;
-        padding-left: 135px;
-        line-height: 28px;
+header ul {
+        padding: 0px;
+        color: firebrick;
+        font-size: 20px;
+        margin: 0px;
+        padding-top: 20px;
 }
 
-
-
-/*------- web technologies ------------*/
-
-#work {
-      clear: both;
+header a {
+      text-decoration: none;
+      list-style: none;
+      padding-left: 40px;
 }
 
-#work a strong {
-      font-size: 16px;
+header a:visited{
+  color: #F7FFFF ;
 }
 
-#work li a .skillcrush:hover {
-                color: #EF3E38;
-}
-
-#work li a .teamtreehouse:hover {
-                color: #44C482;
-}
-
-.p4 {
-    clear: both;
-    display: block;
-    text-align: center;
-    font-family: 'Orbitron', sans-serif;
-    text-transform: uppercase;
-    padding: 60px;
-}
-
-#html {
-    text-align: center;
-}
-
-#html h2 {
-        font-family: cursive;
+header a:hover{
+        color: #FF1900 ;
 }
 
 
-#html h5 {
-        font-weight: 400;
-        line-height: 25px;
-}
-
-#html li {
+header h2 {
+        padding-top: 230px;
+        padding-left: 10px;
+        font-size: 28px;
+        font-family: 'Exo', sans-serif;
+        font-weight: normal;
         text-align: left;
-        list-style: none;
-        margin-left: 20px;
+        text-transform: none;
 }
 
-#html li strong {
-            font-size: 16px;
+header h2 span  {
+        font-weight:600;
 }
 
-#html a {
-          text-decoration: none;
-          font-weight: bolder;
-          color: inherit;
+header h2 strong {
+          color: #FF422E;
+          font-weight: 600;
 }
 
+/* ===================== about ========================== */
 
-#html strong {
-          font-weight: 700;
+.about p {
+      padding: 0 20px;
 }
 
-#html p {
-      font-family: 'Exo', sans-serif;
-      margin: 0 25px;
-      line-height: 28px;
-      text-align: justify;
-}
+/* ===================== portfolio ========================== */
 
 
-#css {
-    text-align: center;
-}
-
-#css h2 {
-      font-family: cursive;
-}
-
-#css h5 {
-      font-weight: 400;
-      line-height: 25px;
-      margin-bottom: 20px;
-}
-
-#css li {
-  text-align: left;
-  list-style: none;
-  margin-left: 20px;
-}
-
-#css li strong {
-              font-size: 16px;
-}
-
-#css a {
-  text-decoration: none;
-  font-weight: bolder;
-  color: inherit;
-}
-
-#css strong {
-        font-weight: 700;
-}
-
-#css p {
-      font-family: 'Exo', sans-serif;
-      margin: 0 25px;
-      line-height: 28px;
-      text-align: justify;
-}
+/* ====== jubilee ====*/
 
 
-#photoshop {
+#jubilee-text {
           text-align: center;
+          padding-bottom: 100px;
 }
 
-#photoshop h2 {
-            font-family: cursive;
-            display: block;
+#jubilee-text h4 {
+        padding-bottom: 20px;
 }
 
-#photoshop h5 {
-            padding-bottom: 21px;
-            font-weight: 400;
-            line-height: 25px;
-            margin-bottom: 35px;
+#jubilee-text p {
+        padding: 0 60px;
 }
 
-#photoshop li {
-  text-align: left;
-  list-style: none;
-  margin-left: 20px;
+#jubilee-text a {
+            text-decoration: none;
+            font-weight: 700;
 }
 
-#photoshop a {
-  text-decoration: none;
-  font-weight: bolder;
-  color: inherit;
+#jubilee-text span {
+          color: #FF422E;
 }
 
-#photoshop strong {
-              font-weight: 700;
-}
+/* ====== holstee ====*/
 
-#photoshop p {
-            font-family: 'Exo', sans-serif;
-            line-height: 28px;
-            margin: 0 25px;
-            text-align: justify;
-}
-
-
-#contact {
-        clear: both;
-}
-
-#contact h2 {
-          font-family: 'Righteous', cursive;
+#holstee-text {
           text-align: center;
-          text-transform: uppercase;
+          padding-bottom: 100px;
           padding-top: 70px;
 }
 
-#email h2 {
-          padding-bottom: 20px;
-          font-size: 16px;
-    }
+#holstee-text h4 {
+        padding-bottom: 20px;
+}
 
-#email p {
+#holstee-text p {
+        padding: 0 60px;
+}
+
+#holstee-text a {
+              text-decoration: none;
+              color: #00A8E8;
+}
+
+#holstee-text a:visited{
+        color: #8D45D1;
+}
+
+#holstee-text a:hover{
+        color: #FFF9F9;
+}
+
+#holstee-text span {
+          color: #FF422E;
+}
+
+/* ====== rogue ====*/
+
+#rogue .half-width {
+          padding-top: 30px;
+}
+
+#rogue-text {
+          text-align: center;
+          padding-bottom: 100px;
+          padding-top: 100px;
+}
+
+#rogue-text h4 {
+        padding-bottom: 20px;
+}
+
+#rogue-text p {
+        padding: 0 60px;
+}
+
+#rogue-text span {
+          color: #FF422E;
+}
+
+/* ===================== work ========================== */
+
+#work {
+    text-align: center;
+}
+
+#work li {
+    list-style: none;
+    text-align: left;
+    line-height: 25px;
+    padding-left: 30px;
+}
+
+
+#work p{
+      padding: 20px;
+}
+
+#photoshop li {
+      padding-bottom: 16px;
+}
+
+
+/* ===================== contact ========================== */
+
+#contact {
+      height: 400px;
+      clear: both;
+}
+ #email p {
+      text-align: center;
+      margin: 0px;
+      padding-bottom: 30px;
+ }
+
+#media {
         text-align: center;
 }
 
-#email a {
-        text-decoration: none;
+#media h3 {
+        font-size: 16px;
+        margin: 0px;
+        padding-bottom: 20px;
 }
 
-
-
-#social-media {
-            text-align: center;
+#media ul {
+        margin: 0;
+        padding-left: 0px;
 }
 
-#social-media h3 {
-                font-family: 'Righteous', cursive;
-                text-transform: uppercase;
-                padding: 20px 0;
-                font-size: 16px;
+#media li {
+        list-style: none;
+        display: inline;
 }
 
-#social-media ul {
-                padding-left: 0;
-}
+/* ===================== footer ========================== */
 
-#social-media li {
-              list-style: none;
-              display: inline;
-              text-align: center;
-              margin: 0 10px;
+footer {
+    background-color: #EB8258;
+    font-size: 20px;
 }
 
 footer h3 {
-        text-align: center;
-        padding: 30px 0;
-        background: #EB8258;
-        font-family: cursive;
-        font-size: 25px;
-        margin-bottom: 0;
-}
- /************************
-  positioning
-  ************************/
-
-/*------- portfolio ------------*/
-
-.p1, .p2 {
-        float: left;
-        margin: 2.5px;
-}
-
-#rogue img {
-          float: left;
-          margin: 60px;
-          margin-left: 5px;
-          border: 2px solid black;
-}
-
-
-.text-rogue h2 p {
-
-              margin: 2.5px;
-}
-
-.text-holstee {
-            float: left;
-            margin: 2.5px;
-}
-
-
-#jubilee img {
-          float: left;
-          margin: 60px;
-          margin-left: 5px;
-          border: 2px solid black;
-}
-
-
-.text-jubilee h2 p {
-
-              margin: 2.5px;
-}
-
-.text-jubilee {
-            float: left;
-            margin: 2.5px;
-}
-
-
-
-/*------- web technologies ------------*/
-
-#html {
-    max-width: 410px;
-    float:left;
-    margin: 5px;
-}
-
-#css {
-    max-width: 410px;
-    float:left;
-    margin: 5px;
-}
-
-
-#photoshop {
-          max-width: 410px;
-          float:left;
-          display: block;
-          margin: 5px;
+      text-align: center;
+      font-family: cursive;
+      margin: 0px;
+      padding: 40px 0;
+      clear: both;
 }
