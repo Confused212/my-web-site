@@ -94,12 +94,16 @@ header a {
       padding-left: 40px;
 }
 
+header a:link {
+      color: #FF422E;
+}
+
 header a:visited{
   color: #F7FFFF ;
 }
 
 header a:hover{
-        color: #FF1900 ;
+        color: #fff ;
 }
 
 
